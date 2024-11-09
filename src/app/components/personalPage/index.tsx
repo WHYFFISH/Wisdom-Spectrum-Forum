@@ -7,8 +7,8 @@ export const PersonalPage = () => {
   return (
     <>
       <div className={styles.leftContent}>
-        <Image src={logo} alt="Logo" className={styles.mainLogo} />
-        <Image src={childrenPage} alt="leftMainContent" className={styles.mainContent} />
+        {/* <Image src={logo} alt="Logo" className={styles.mainLogo} />
+        <Image src={childrenPage} alt="leftMainContent" className={styles.mainContent} /> */}
       </div>
       <div className={styles.rightContent}>
         <div className={styles.introduction}>
