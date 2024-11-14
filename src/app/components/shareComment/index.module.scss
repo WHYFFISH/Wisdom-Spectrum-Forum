@@ -1,0 +1,225 @@
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  position: relative;
+
+  .leftContent {
+    width: 600px;
+    height: 100%;
+    // background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    padding: 30px;
+
+    .title {
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .contentText {
+      font-size: 14px;
+      line-height: 30px;
+    }
+
+    .familyImg {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 600px;
+      height: 450px;
+    }
+  }
+
+  .rightContent {
+    height: 100%;
+    flex: 1;
+    // background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 20px 40px;
+
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .top {
+      width: 100%;
+      height: 250px;
+      margin-top: 20px;
+      background-color: rgb(198, 219, 196);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .topTitle {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+      }
+
+      .postItem {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 20px;
+
+        .userImg {
+          width: 70px;
+          height: 60px;
+          border-radius: 40px;
+          background-color: rgb(163, 201, 205);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 10px;
+
+          img {
+            width: 70px;
+            height: 60px;
+            border-radius: 40px;
+            object-fit: contain;
+          }
+        }
+
+        .userInfo {
+          // flex: 1;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+          align-items: start;
+          // justify-content: space-around;
+          // background-color: rgb(87, 159, 168);
+
+          .userName {
+            width: 100px;
+            height: 30px;
+            background-color: rgb(163, 201, 205);
+            margin-left: 10px;
+            border-radius: 50px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            font-weight: 600;
+          }
+
+          .postContent {
+            width: 480px;
+            margin-left: 15px;
+            height: 150px;
+            background-color: rgb(163, 201, 205);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+
+          }
+
+        }
+      }
+    }
+
+    .current {
+      width: 100%;
+      // height: 250px;
+      flex: 1;
+      margin-top: 20px;
+      background-color: rgb(198, 219, 196);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .topTitle {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+      }
+
+      .postsList {
+        padding: 0;
+
+        .postItem {
+          width: 100%;
+          // height: 200px;
+          display: flex;
+          justify-content: start;
+          align-items: start;
+          margin-bottom: 20px;
+
+          .userImg {
+            width: 70px;
+            height: 60px;
+            border-radius: 40px;
+            background-color: rgb(163, 201, 205);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // margin-left: 10px;
+
+            img {
+              width: 70px;
+              height: 60px;
+              border-radius: 40px;
+              object-fit: contain;
+            }
+          }
+
+          .userInfo {
+            // flex: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            // justify-content: space-around;
+            // background-color: rgb(87, 159, 168);
+
+            .userName {
+              width: 100px;
+              height: 30px;
+              background-color: rgb(163, 201, 205);
+              margin-left: 10px;
+              border-radius: 50px;
+              margin-bottom: 10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 15px;
+              font-weight: 600;
+            }
+
+            .postContent {
+              width: 480px;
+              margin-left: 15px;
+              // height: 150px;
+              background-color: rgb(163, 201, 205);
+              padding: 10px;
+              margin-bottom: 10px;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
