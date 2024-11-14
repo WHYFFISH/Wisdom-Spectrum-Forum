@@ -1,0 +1,83 @@
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+  padding: 50px;
+
+  .commentList {
+    width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    // background-color: aqua;
+
+    .comment {
+      width: 100%;
+      margin-bottom: 30px;
+      display: flex;
+
+      .userImg {
+        width: 100px;
+        height: 90px;
+        border-radius: 40px;
+        background-color: rgb(163, 201, 205);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 900px;
+          height: 80px;
+          border-radius: 40px;
+          object-fit: contain;
+        }
+      }
+
+      .userInfo {
+        width: 300px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        // justify-content: space-around;
+        // background-color: rgb(87, 159, 168);
+
+        .userName {
+          width: 150px;
+          height: 40px;
+          background-color: rgb(163, 201, 205);
+          margin-left: 20px;
+          border-radius: 50px;
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 18px;
+          font-weight: 600;
+        }
+
+        .postTime {
+          width: 200px;
+          // height: 30px;
+          margin-left: 30px;
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+
+        .postContent {
+          width: 750px;
+          margin-left: 30px;
+          // height: 100px;
+          background-color: rgb(163, 201, 205);
+          padding: 10px;
+          margin-bottom: 10px;
+          border-radius: 10px;
+
+        }
+      }
+    }
+  }
+}
