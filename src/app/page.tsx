@@ -2,32 +2,20 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
 import React from 'react';
-import { usePathname, useParams, useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 import logo from '../asset/logo.png';
 import childrenPage from '../asset/children.png';
 import leftUnder from '../asset/leftUnder.png';
 import leftUp from '../asset/leftUp.png';
 import rightUnder from '../asset/rightUnder.png';
 import rightUp from '../asset/rightUp.png';
-import { CodeLogin } from '../app/components/CodeLogin'
-import { Registration } from '../app/components/Registration'
 import { PersonalPage } from '../app/components/personalPage'
 import { PostsCommunication } from '../app/components/postsCommunication'
 import { ShareExperiencePage } from '../app/components/shareExperiencePage'
 
 export default function Home() {
-  const router = useRouter();
   const [pagePart, setPagePart] = React.useState<number>(0);
 
-  React.useEffect(() => {
-    const checkAuth = async () => {
-
-      router.push('/personalPage');
-
-    };
-    // checkAuth();
-
-  }, []);
 
   const content = React.useMemo(() => {
     switch (pagePart) {

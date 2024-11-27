@@ -2,10 +2,7 @@ import Image from "next/image";
 import styles from "./index.module.scss";
 import React from 'react';
 import family from '../../../asset/family.png';
-import sun from '../../../asset/sun.png';
-import BackGround from '../../../asset/postsBackGround.png';
 import otherImg1 from '../../../asset/otherImg1.png';
-import userImg from '../../../asset/userImg.png';
 
 
 export const ShareComment = () => {

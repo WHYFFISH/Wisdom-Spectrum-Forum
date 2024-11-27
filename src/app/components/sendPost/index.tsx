@@ -2,9 +2,6 @@ import Image from "next/image";
 import styles from "./index.module.scss";
 import React from 'react';
 import camera from '../../../asset/camera.png';
-import BackGround from '../../../asset/postsBackGround.png';
-import otherImg1 from '../../../asset/otherImg1.png';
-import userImg from '../../../asset/userImg.png';
 
 
 export const SendPost = () => {
