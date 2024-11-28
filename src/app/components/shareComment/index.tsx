@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./index.module.scss";
 import React from 'react';
-import family from '../../../asset/family.png';
-import otherImg1 from '../../../asset/otherImg1.png';
+import family from '@/asset/family.png';
+import otherImg1 from '@/asset/otherImg1.png';
 
 
 export const ShareComment = () => {

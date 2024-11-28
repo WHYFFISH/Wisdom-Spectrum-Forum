@@ -1,10 +1,10 @@
 import Image from "next/image";
 import styles from "./index.module.scss";
 import React from 'react';
-import searchIcon from '../../../asset/searchIcon.png';
-import BackGround from '../../../asset/postsBackGround.png';
-import otherImg1 from '../../../asset/otherImg1.png';
-import userImg from '../../../asset/userImg.png';
+import searchIcon from '@/asset/searchIcon.png';
+import BackGround from '@/asset/postsBackGround.png';
+import otherImg1 from '@/asset/otherImg1.png';
+import userImg from '@/asset/userImg.png';
 
 
 export const Posts = () => {

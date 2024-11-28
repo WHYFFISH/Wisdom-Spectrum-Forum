@@ -1,13 +1,13 @@
 import Image from "next/image";
 import styles from "./index.module.scss";
 import React from 'react';
-import otherImg1 from '../../../asset/otherImg1.png';
+import otherImg1 from '@/asset/otherImg1.png';
 
 
 export const CheckComment = () => {
 
 
-  
+
   return (
     <div className={styles.content}>
       <div className={styles.commentList}>

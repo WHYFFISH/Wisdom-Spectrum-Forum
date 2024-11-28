@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./index.module.scss";
 import React from 'react';
-import userImg from '../../../asset/userImg.png';
+import userImg from '@/asset/userImg.png';
 import { Posts } from '../posts'
 import { SendPost } from '../sendPost'
 import { CheckComment } from '../checkComment'

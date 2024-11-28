@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./index.module.scss";
 import React from 'react';
-import writeChild from '../../../asset/writeChild.png';
-import sun from '../../../asset/sun.png';;
+import writeChild from '@/asset/writeChild.png';
+import sun from '@/asset/sun.png';;
 
 
 export const SendEmail = () => {

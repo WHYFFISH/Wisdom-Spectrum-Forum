@@ -3,15 +3,15 @@ import Image from "next/image";
 import styles from "./page.module.scss";
 import React from 'react';
 // import { useRouter } from 'next/navigation';
-import logo from '../asset/logo.png';
-import childrenPage from '../asset/children.png';
-import leftUnder from '../asset/leftUnder.png';
-import leftUp from '../asset/leftUp.png';
-import rightUnder from '../asset/rightUnder.png';
-import rightUp from '../asset/rightUp.png';
-import { PersonalPage } from '../app/components/personalPage'
-import { PostsCommunication } from '../app/components/postsCommunication'
-import { ShareExperiencePage } from '../app/components/shareExperiencePage'
+import logo from '@/asset/logo.png';
+import childrenPage from '@/asset/children.png';
+import leftUnder from '@/asset/leftUnder.png';
+import leftUp from '@/asset/leftUp.png';
+import rightUnder from '@/asset/rightUnder.png';
+import rightUp from '@/asset/rightUp.png';
+import { PersonalPage } from '@/app/components/personalPage'
+import { PostsCommunication } from '@/app/components/postsCommunication'
+import { ShareExperiencePage } from '@/app/components/shareExperiencePage'
 
 export default function Home() {
   const [pagePart, setPagePart] = React.useState<number>(0);
