@@ -6,7 +6,6 @@ import otherImg1 from '../../../asset/otherImg1.png';
 
 export const CheckComment = () => {
 
-
   return (
     <div className={styles.content}>
       <div className={styles.commentList}>
